@@ -17,6 +17,8 @@ section {
     width: 400px;
     margin: auto;
     line-height: 40px;
+    position: relative;
+    z-index: 5;
 }
 .name {
     width: 400px;
@@ -43,17 +45,66 @@ p {
     color: black;
     background-color: white;
 }
-div {
-    width: 15px;
-    height: 15px;
-    background-color:chartreuse;
-}
+
 .one {
-    background-color: white;
+    border: 0px solid;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background:linear-gradient(#fc4a1a, #f7b733);
+    position:  absolute;
+    bottom: 300px;
+    left: 450px;
 }
 .two {
-    background-color: yellow;
+    border: 0px solid;
+    border-radius: 50%;
+    height: 150px;
+    width: 100px;
+    background:linear-gradient(#40e0d0, #ff8c00, #ff0080);
+    position:  absolute;
+    bottom: 200px;
+    left: 650px;  
 }
 .three {
-    background-color: blue;
+    border: 0px solid;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background:linear-gradient(#004ff9, #fff94c);
+    position:  absolute;
+    bottom: 300px;
+    left: 750px;
+}
+.four {
+    border: 0px solid;
+    border-radius: 50%;
+    height: 150px;
+    width: 200px;
+    background:linear-gradient(#525252, #3d72b4);
+    position:  absolute;
+    bottom: 10px;
+    left: 600px;
+}
+.five {
+    border: 0px solid;
+    border-radius: 50%;
+    height: 150px;
+    width: 250px;
+    background:linear-gradient(#fc00ff, #00dbde);
+    position:  absolute;
+    bottom: 10px;
+    top: 700px;
+    left: 500px;
+}
+.sixth {
+    border: 0px solid;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background:linear-gradient(#00c9ff, #92fe9d);
+    position:  absolute;
+    bottom: 10px;
+    top: 900px;
+    left: 590px;
 }
